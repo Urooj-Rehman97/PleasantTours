@@ -1,0 +1,54 @@
+#header-canvas{
+    width: 100%;
+    height: 150px;
+    background-color:white;
+    display: flex;
+    border-radius: 10px;
+}
+#header-canvas img{
+    border-radius: 10px;
+    margin-left: 20px;
+    height: 125px;
+    margin-top: 11px;
+}
+#header-canvas h2{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#body-canvas{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#body-canvas select option{
+    width: 100%;
+}
+#footer-canvas{
+    width: 100%;
+    height: 1350px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    border-radius: 10px;}
+ #fixed-canvas{
+        width: 50%;
+        height: 150px;
+        background-color:white;
+        margin-top: 20px;
+        position: fixed;
+        top: 600px;
+        display: flex;
+     align-items: center;  
+     justify-content:space-between; 
+    }
+    #fixed-canvas h2{
+        color: rgba(0, 104, 240, 0.87);
+        /* margin-top: 50px; */
+        margin-left: 20px;
+    }
+    #fixed-canvas a{
+        margin-left: 150px;
+    }

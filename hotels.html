@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pleasant Tours-Hotels</title>
+    <link rel="shortcut icon" href="ASSETS/LOGO.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    
+</head>
+<body>
+    <style>
+        
+        body h1{
+          margin-left: 60px;
+          margin-top:40px;
+        }
+            
+        
+        .card{
+            /* margin-left: 50px; */
+            border-radius: 8%;
+        }
+        /* .card img{
+          width:420px;
+          margin-top: 10px;
+        }
+        .h1{
+            margin-left: 50px;
+        } */
+    
+      /* body h1,h5{
+        margin-left: 60px;
+      } */
+     
+       @media (max-width:500px){
+        .card{
+          width:100% !important;
+        }
+       }
+       
+    </style>
+</head>
+<body>
+  <span class="navbar navbar-expand-lg " id="navbar">
+    <div class="container-fluid " id="nav-">
+      <a class="navbar-brand" href="Home.html"><img src="ASSETS/LOGO.png" alt=""></a><br>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="trips.html">Trips</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link  dropdown-toggle text-dark" href="#" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-dark" href="tours.html">Tours</a></li>
+              <li><a class="dropdown-item text-dark" href="hotels.html">Hotels</a></li>
+              <li>
+                <hr class="dropdown-divider text-dark">
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+        <a href="signup.html"><button>Sign Up<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+              class="bi bi-person" viewBox="0 0 16 16">
+              <path
+                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+            </svg></button></a>
+      </div>
+    </div>
+  </span>
+  <h1>Trending destinations</h1>
+  <h5>Most popular choices for travellers..</h5>
+   <div class="container-fluid">
+    <div class="row justify-content-evenly">
+      <div class="card" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel2.jpg); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">Deira Palace Hotel</h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+        
+      </div>
+      <div class="card" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel1.jpeg); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel1.jpeg" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">Maisonette Hotel</h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel3.jpg); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel3.jpg" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">San Marino Hotel </h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row justify-content-evenly">
+      <div class="card" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel4.jpg); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel4.jpg" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">Queens Hotel
+          </h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+      <div class="card col-md-3" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel5.webp); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel5.webp" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">
+            MOUNT SINA HOTEL </h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+      <div class="card col-md-3" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel6.webp); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel6.webp" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0">
+            Le Paradise Palace Hotel</h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+    <div class="row justify-content-evenly">
+      <div class="card col-md-3" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel7.webp); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel7.webp" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">Index Hotel
+          </h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+      <div class="card col-md-3" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel8\ \(1\).webp); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel8 (1).webp" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">JBR Marina Hotel</h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+      <div class="card col-md-3" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel9.webp); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel9.webp" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">Seven Seas Hotel
+          </h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+    <div class="row justify-content-evenly">
+      <div class="card col-md-3" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel10.webp); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel10.webp" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">JBR Silent Hotel</h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+      <div class="card col-md-3" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel11.webp); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel11.webp" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">
+            C Central Hotel </h5>
+          <a href="#" class="btn btn-primary"type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+      <div class="card col-md-3" style="width: 30%;">
+        <div style="width:100%; height:250px; background-image: url(ASSETS/hotel13.webp); margin-top:10px; border-radius: 8%; background-size: cover;">
+
+        </div>
+        <!-- <img src="ASSETS/hotel13.webp" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title ms-0 mt-5">Melody Queen Hotel </h5>
+          <a href="#"  class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target=".all-card"
+          aria-controls=".all-card">Book Now</a>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+   </div>
+     <!-- canvas start -->
+     <div class="offcanvas offcanvas-end w-50 bg-light all-card" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+      aria-labelledby="offcanvasScrollingLabel">
+     <div class="offcanvas-header bg-white">
+       <h4 class="offcanvas-title text-dark" id="offcanvasScrollingLabel">Hotel Preview</h4>
+       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+     </div>
+     <div class="offcanvas-body">
+       <div id="liveAlertPlaceholder"></div>
+      
+
+       <div id="footer-canvas">
+         <pre>
+
+SERVICES INCLUDES– May vary according to your desires
+• 2 night’s hotel stays as per plan
+• Quality Meals (Breakfast + Dinner)
+• Bonfire (1 Time)
+• Basic first aid kit.
+• All tolls and taxes
+• Blankets / Comforter / Quilt For Night (in Winter Season)
+
+SERVICES NOT INCLUDES – May vary according to your desires
+
+• Personal Clothing
+• Jeep Charges Any Kind Of
+• Entry Tickets
+• Extras at the hotel like drinks, laundry, phone calls, Heaters, activities
+• Insurance liability medical aid, and helicopter rescue coverage.
+• Anything thing other than mentioned above in the “Services Includes” area is not
+Included in the cost
+
+Day Itinerary
+00 Departure from Lahore at 08:30 Pm
+
+01 Pick Up Members From Islamabad
+• Short Break at Behra
+• Pick Participants from Islamabad
+• Drive through Sawat Motorway
+• Breakfast at Fizza-ghat/MalamJabba
+• Explore Malam Jabba Ski Resort
+• Enjoy Chairlift & Zip-line (Self)
+• Starts travel towards Behrain
+• Dinner & Overnight Stay at Behrain/Kalam
+
+02 Departure For Ushu Forest
+• Breakfast at Hotel 8:00am
+• Start Travel towards USHU.
+• Explore Forest & Photography
+• Visit Palogha / Mahodand (On self-jeeps)
+• Travel back to hotel
+• Dinner & Overnight stay at Kalam/Behrain.
+
+03 Departure For Islamabad / Lahore
+
+• Breakfast at Hotel 08:30Am
+• Start Travel to Lahore
+• Visit any missing point
+• Drop at Islamabad
+• Dinner break (self)
+• Reach Home safely 11:00Pm
+
+TERMS & CONDITIONS.
+• Every member must keep his/her original CNIC.
+• Member should have to report 30 minutes before departure time.
+• Only 10 Kg Cargo bags are allowed & every member is responsible to carry its own luggage.
+• Member must have to behave ethically with his/her fellow group Members Otherwise company can cancel his/her membership at any time.
+• Company is not responsible for personal injuries and accidents & loss of any kind of valuable item.
+• All payments made are non-refundable. However, if compensation is necessary, you will have the option to use the amount towards a future trip within one year.
+• Every humanly possible care will be taken for the safety of members, still each venture can be fraught with endangers of unforeseen natural disasters like avalanches and crevasse falls or any other accidents and sometimes such disasters cannot be ruled out. In any such type of accident during the whole tour, the company, group leader and the tour organizers will not be held responsible in any form.
+• In case of theft, lost or damage to personal belongings during the duration of the trip, organizers will not be held responsible in any case.
+• On adventure trek of this type, weather, local politics, transport or a multitude of other factors beyond the control of organizers can result in a change of itinerary. It is, however, very unlikely that the itinerary would be substantially altered; if alterations are necessary the Leader and Guide will decide what is the best alternative, taking into consideration the best interests of the whole group.
+• Company can cancel booking at any time.
+• Personal weapons are strictly not allowed.
+• I understand to abide by the rules & regulation & by-laws of the company, to be enforce from time to time.
+• I understand that the adventure/outdoor activities carry a potential risk of personal injury. I further undertake that neither I nor my heirs or legal representatives shall raise any compensation from the company.
+       </pre>
+
+       </div>
+
+     </div>
+     <div id="fixed-canvas">
+       <h2 class="text-primary">RS:100000</h2>
+       <a href="Download Assets/Document.rtf" download><button class="btn btn-primary ms-5">Download
+           Details</button></a>
+       <input type="submit" class="btn btn-primary me-5" id="liveAlertBtn" value="Book Now">
+     </div>
+   </div>
+
+   <!-- <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button> -->
+   <!-- canvas end -->
+   <div class="container-fluid" id="ft">
+    <div class="row">
+      <div class="col-lg-4 col-md-12" id="ft-1">
+        <a href="Home.html">
+          <img src="ASSETS/LOGO.png" alt="">
+        </a>
+        <p> With Pleasant Tours, you can browse through hundreds of bus operators and airlines to find the most affordable option for yourself.</p>
+        <a href="https://www.facebook.com/pleasanttourstransfers/" target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor" class="bi bi-facebook text-dark" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+        </svg></a>
+        <a href="https://twitter.com/" target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor" class="bi bi-twitter text-dark" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+        </svg></a>
+        <a href="https://www.youtube.com/@PleasantToursLifestyle" target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor" class="bi bi-youtube text-dark" viewBox="0 0 16 16">
+          <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+        </svg></a>
+      </div>
+      <div class="col-md-4 " id="ft-2">
+        <form action="">
+          <p>Stay up to date with the latest news,announcments and articles.</p>
+          <input type="email" placeholder="Enter Your Emial">
+          <input type="submit" class="btn btn-primary">
+        </form>
+      </div>
+      <div class="col-md-4 d-flex" >
+        <div id="ft-3">
+          <h4>Services</h4>
+        <ul>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="hotels.html">Hotels</a></li>
+        </ul>
+        </div>
+        <div id="ft-4">
+          <h4>Company</h4>
+        <ul>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="Contactus.html">Contact Us</a></li>
+        </ul>
+        </div>
+        <div id="ft-4">
+          <h4>Others</h4>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+        </div>
+        
+      </div>
+      <!-- <div class="col-md-3" id="ft-4">
+      
+      </div> -->
+    </div>
+    <div class="row">
+      <div class="col-11 m-auto" id="ft-5">
+@Pleasant Tours 2024. ALRIGHT RESERVED...
+      </div>
+    </div>
+  </div>
+    <script src="JS/bootstrap.bundle.js"></script>
+    <SCript>
+      const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+      const appendAlert = (message, type) => {
+        const wrapper = document.createElement('div')
+        wrapper.innerHTML = [
+          `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+          `   <div>${message}</div>`,
+          '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+          '</div>'
+        ].join('')
+
+        alertPlaceholder.append(wrapper)
+      }
+
+      const alertTrigger = document.getElementById('liveAlertBtn')
+      if (alertTrigger) {
+        alertTrigger.addEventListener('click', () => {
+          appendAlert('Thanks for booking, Our team contact on your mail. ', 'success')
+        })
+      }
+
+    </SCript>
+</body>
+</html>

@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+}
+#nav{
+background-image: url(../ASSETS/bannerbg2.jpg);
+background-size: cover;
+color: white;
+}
+#nav-img{
+    width: 10%;
+}
+#nav-link li a{
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#nav-link li a:hover{
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+#nav h1{
+    margin-top: 40px;
+    font-size: 60px;
+    margin-left: 50px;
+}
+#nav h4{
+    margin-left: 50px;
+margin-bottom: 90px;
+}
+#nav-sign{
+background-color: transparent;
+color: white;
+border: 3px solid white;
+border-radius: 20px;
+width: 150px;
+height: 40px;
+outline: none;
+}
+#nav-sign:hover{
+background-color: white;
+color: black;
+}
+#navbar-toggler{
+    color: white;
+    margin-left: 90%;
+    background-color: white;
+    /* position: absolute;
+    bottom: 10px; */
+
+}
+#navbar{
+    background-color:  rgb(177,177,177);
+    /* height: 100px; */
+}
+#navbar #nav-{
+    background-color:transparent;
+    margin-top: 1px;
+}
+#navbar #nav- a img{
+    
+    width: 40%;
+}
+#navbar .collapse{
+    background-color: transparent;
+    position: absolute;
+
+}
+#navbar .collapse a button{
+    margin-left: 300px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    border:3px solid white;
+}
+#navbar .navbar-nav{
+    margin-left: 650px;
+    color: white;
+    
+}
+#navbar .navbar-nav li a{
+    color: white;
+}
+ #navbar.nav-item{
+   margin-left: 40px;
+   
+}
+.banner h1{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.banner p{
+    margin-left: 75px;
+}
+#orlando{
+    background-image: url(../ASSETS/orlando.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+}
+#orlando:hover{
+    transform: scale(0.9);
+}
+#waltonbeach{
+    background-image: url(../ASSETS/waltonbeach.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+}#waltonbeach:hover{
+    transform: scale(0.9);
+}
+#atlanta{
+    background-image: url(../ASSETS/atlanta.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+#atlanta:hover{
+    transform: scale(0.9);
+}
+#dubai{
+    background-image: url(../ASSETS/dubai.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+#dubai:hover{
+    transform: scale(0.9);
+}
+#toronto{
+    background-image: url(../ASSETS/toronto.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+#toronto:hover{
+    transform: scale(0.9);
+}
+#banner2{
+    background-color: rgba(0, 0, 0, 0.895);
+    /* height: 300px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+#banner2 h1,h5{
+    margin-left: 40px;
+    color: white;
+}
+#banner2 #bn2{
+    display: flex;
+    
+    justify-content:center;
+}
+#bn2 #bn2-1{
+    width: 30%;
+    /* border: 3px solid white; */
+    color: white;
+    display: flex;
+    /* margin-left: 40px; */
+    margin-top: 20px;
+}
+#bn2 #bn2-2{
+    width: 60%;
+    /* border: 3px solid white; */
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    /* margin-right: 20px; */
+}
+#bn2 #bn2-3{
+    width: 300px;
+    /* border: 3px solid white; */
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    /* margin-right: 40px; */
+}
+
+#explain{
+margin-top: 100px;
+}
+#ft{
+    background-image: url(../ASSETS/bannerbg2.jpg);
+    border-top: 3px double red;
+    margin-top: 30px;
+    
+}
+/* #ft-1{ */
+    /* background-color: antiquewhite; */
+/* } */
+#ft-1 img{
+    width: 70%;
+    margin-left: 60px;
+
+}
+#ft-1 p{
+    margin-left: 15px;
+    text-align: center;
+}
+#ft-1 .bi-facebook{
+    margin-left: 36%;
+}
+#ft-2 p{
+    margin-top: 60px;
+    margin-left: 90px;
+}
+#ft-2 input[type=email]{
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 19%;
+}
+#ft-3 h4{
+    margin-top: 50px;
+    margin-left: 100px;
+    
+    
+}
+#ft-3 ul{
+    margin-left: 90px;
+    margin-top: 18px;
+    list-style: none; 
+}
+#ft-3 ul li a{
+    text-decoration: none;
+    color: black;
+   
+    
+}
+#ft-4 h4{
+    margin-top: 50px;
+    margin-left: 27px;
+    
+}
+#ft-4 ul{
+    list-style: none;
+    margin-top: 18px;
+}
+#ft-4 ul li a{
+    text-decoration: none;
+    color: black;
+}
+#ft-5{
+    text-align: center;
+    border-top: 3px solid black;
+    margin-top: 10px;
+    
+}
